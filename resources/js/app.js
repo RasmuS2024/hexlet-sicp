@@ -4,6 +4,7 @@ import * as bootstrap from 'bootstrap'
 import axios from 'axios'
 import ujs from '@rails/ujs'
 import correctionListener from './correction'
+import './custom/comment.js';
 
 import.meta.glob([
   '../assets/images/**',
